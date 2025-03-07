@@ -23,10 +23,10 @@ const greeting = {
   username: "Sujeet Mahto",
   title: "Hi, I'm Sujeet",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "🚀 I'm an MCA student at NIT Allahabad, a passionate Full Stack Developer who loves exploring internal workings of Technologies🤓 Arch Linux 🐧 and the terminal 💻."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1EsPlJsk4eMHrFitMx9F19SIXGtston6T/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,15 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE FULL STACK DEVELOPER WHO LOVES TO EXPLORE HOW THINGS WORK INTERNALLY ⚙️",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    // emoji("⚡ Build highly interactive and optimized front-end experiences for web applications 🌐"),
+    // emoji("⚡ Develop and manage scalable back-end systems with Node.js & MongoDB 🚀"),
+    emoji("⚡ Automate workflows, manage servers, and configure development environments using Linux 🐧 & the terminal 💻"),
+    emoji("⚡ Version control with Git & GitHub 🔥, and seamless deployment on Vercel, Heroku, and self-hosted setups 🌍"),
+    emoji("⚡ Deep dive into system internals, low-level programming, and memory management with C/C++ 🛠️"),
+    emoji("⚡ Writing clean, efficient scripts with Python 🐍 for automation & backend tasks")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,8 +72,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "tailwindcss",
+      fontAwesomeClassname: "fas fa-palette"
     },
     {
       skillName: "JavaScript",
@@ -89,32 +88,44 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "mongodb",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "c",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "c++",
+      fontAwesomeClassname: "fas fa-cog"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "terminal",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "vercel",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "heroku",
+      fontAwesomeClassname: "fas fa-cloud-upload-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,31 +137,46 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Motilal Nehru National Institute of Technology Allahabad 🏛️",
+      logo: require("./assets/images/mnnitlogoSquare.png"),
+      subHeader: "Master of Computer Applications 🎓",
+      duration: "2024 - 2027",
+      desc: "Currently maintaining a 9.5 CPI 📊 while actively exploring system internals, low-level programming, and open-source contributions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Full-Stack Integration Engineer, Web Team, Application Club 🔥",
+        "Ranked #6 in OPC Freshers Competitive Coding Contest 🚀",
+        "Finalist in DevOrDie (Avishkar) MNNIT 2024 🏆",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Chaudhary Bansi Lal University, Bhiwani 🏫",
+      logo: require("./assets/images/cbluLogo.jpg"),
+      subHeader: "Bachelor of Science (Computer Science) 🎓",
+      duration: "2021 - 2024",
+      desc: "Graduated with a CGPA of 7.99 while developing a strong foundation in computer science concepts.",
+      descBullets: [
+        "Focused on algorithms, data structures, and backend development 🔍",
+        "Participated in various technical events and hackathons 🏅",
+        "Won 1st place in the District-level Science Exhibition 🏆",
+      ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "City Senior Secondary School, Hansi Road 🏫",
+      // logo: require("./assets/images/citySchoolLogo.png"),
+      logo: require("./assets/images/bsehLogo.png"),
+      subHeader: "Higher Secondary Education 📖",
+      duration: "2019 - 2021",
+      desc: "Completed high school with a strong academic record, securing 91.6% in the Haryana Board.",
+      descBullets: ["Developed an early interest in coding and problem-solving 💡"]
+    },
+    {
+      schoolName: "Saraswati Shiksha Niketan High School, Shanti Nagar 🏫",
+      // logo: require("./assets/images/ssnLogo.png"),
+      logo: require("./assets/images/bsehLogo.png"),
+      subHeader: "Secondary Education 🎒",
+      duration: "2017 - 2019",
+      desc: "Secured 89.2% in the Haryana Board, excelling in science and mathematics.",
+      descBullets: ["Pushed myself out of my confort zone to engage in public speaking 💡"]
     }
   ]
 };
@@ -158,22 +184,22 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Passion for Learning New Technologies",
+      progressPercentage: "100%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -256,56 +282,57 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Notable achievements, certifications, and recognitions I've earned along the way!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "1st Runner-up, Devjam 2025 🏅",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Secured 2nd place in MNNIT’s flagship hackathon, competing against top developers and innovators.",
+      image: require("./assets/images/devjamLogo.png"),
+      imageAlt: "Hackathon Logo",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "Rank #6, OPC Freshers Competitive Coding Contest 🚀",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Achieved 6th position in the highly competitive OPC Freshers contest by CC Club, showcasing strong problem-solving skills.",
+      image: require("./assets/images/cpLogo.jpg"),
+      imageAlt: "Coding Contest Logo",
+      footerLink: []
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Finalist, DevOrDie (Avishkar) MNNIT 2024 🏆",
+      subtitle:
+        "Reached the finals of DevOrDie, a premier coding event at MNNIT, proving expertise in software development and system design.",
+      image: require("./assets/images/avishkarLogo.jpg"),
+      imageAlt: "DevOrDie Logo",
+      footerLink: []
+    },
+    {
+      title: "Top 70, CodeStart 8.0 🎯",
+      subtitle:
+        "Ranked among the top 70 out of 213 teams in CodeStart 8.0, a competitive programming challenge by CC Club.",
+      image: require("./assets/images/cpLogo.jpg"),
+      imageAlt: "CodeStart Logo",
+      footerLink: []
+    },
+    {
+      title: "AIR 232, NIMCET 2024 🏅",
+      subtitle:
+        "Secured an All India Rank of 232 in NIMCET, the national-level MCA entrance examination.",
+      image: require("./assets/images/nitjsrLogo.png"),
+      imageAlt: "NIMCET Logo",
+      footerLink: []
+    },
+    {
+      title: "1st Position, Science Exhibition 2022 🏆",
+      subtitle:
+        "Won 1st place at the district-level Science Exhibition in Bhiwani, showcasing an innovative tech project.",
+      image: require("./assets/images/scienceExhibitionLogo.jpg"),
+      imageAlt: "Science Exhibition Logo",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -388,7 +415,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "sujeetmahto-dev", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

@@ -1,6 +1,6 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "homepage": "https://mahtosujeet.github.io/",
+  "name": "mahtosujeet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -54,5 +54,13 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.2.0",
     "prettier": "^2.3.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "core-js",
+      "core-js-pure",
+      "sharp"
+    ]
   }
 }

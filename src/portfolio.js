@@ -49,14 +49,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE FULL STACK DEVELOPER WHO LOVES TO EXPLORE HOW THINGS WORK INTERNALLY ⚙️",
+  subTitle:
+    "PASSIONATE FULL STACK DEVELOPER WHO LOVES TO EXPLORE HOW THINGS WORK INTERNALLY ⚙️",
   skills: [
     // emoji("⚡ Build highly interactive and optimized front-end experiences for web applications 🌐"),
     // emoji("⚡ Develop and manage scalable back-end systems with Node.js & MongoDB 🚀"),
-    emoji("⚡ Automate workflows, manage servers, and configure development environments using Linux 🐧 & the terminal 💻"),
-    emoji("⚡ Version control with Git & GitHub 🔥, and seamless deployment on Vercel, Heroku, and self-hosted setups 🌍"),
-    emoji("⚡ Deep dive into system internals, low-level programming, and memory management with C/C++ 🛠️"),
-    emoji("⚡ Writing clean, efficient scripts with Python 🐍 for automation & backend tasks")
+    emoji(
+      "⚡ Automate workflows, manage servers, and configure development environments using Linux 🐧 & the terminal 💻"
+    ),
+    emoji(
+      "⚡ Version control with Git & GitHub 🔥, and seamless deployment on Vercel, Heroku, and self-hosted setups 🌍"
+    ),
+    emoji(
+      "⚡ Deep dive into system internals, low-level programming, and memory management with C/C++ 🛠️"
+    ),
+    emoji(
+      "⚡ Writing clean, efficient scripts with Python 🐍 for automation & backend tasks"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -145,7 +154,7 @@ const educationInfo = {
       descBullets: [
         "Full-Stack Integration Engineer, Web Team, Application Club 🔥",
         "Ranked #6 in OPC Freshers Competitive Coding Contest 🚀",
-        "Finalist in DevOrDie (Avishkar) MNNIT 2024 🏆",
+        "Finalist in DevOrDie (Avishkar) MNNIT 2024 🏆"
       ]
     },
     {
@@ -157,7 +166,7 @@ const educationInfo = {
       descBullets: [
         "Won 1st place in the District-level Science Exhibition 🏆",
         "Particated in North-Zone Men's Chess Tournament 2022 🏆",
-        "Focused on algorithms, data structures, and backend development 🔍",
+        "Focused on algorithms, data structures, and backend development 🔍"
       ]
     },
     {
@@ -167,7 +176,9 @@ const educationInfo = {
       subHeader: "Higher Secondary Education 📖",
       duration: "2019 - 2021",
       desc: "Completed high school with a strong academic record, securing 91.6% in the Haryana Board.",
-      descBullets: ["Developed an early interest in coding and problem-solving 💡"]
+      descBullets: [
+        "Developed an early interest in coding and problem-solving 💡"
+      ]
     },
     {
       schoolName: "Saraswati Shiksha Niketan High School, Shanti Nagar 🏫",
@@ -176,7 +187,9 @@ const educationInfo = {
       subHeader: "Secondary Education 🎒",
       duration: "2017 - 2019",
       desc: "Secured 89.2% in the Haryana Board, excelling in science and mathematics.",
-      descBullets: ["Pushed myself out of my confort zone to engage in public speaking 💡"]
+      descBullets: [
+        "Pushed myself out of my confort zone to engage in public speaking 💡"
+      ]
     }
   ]
 };

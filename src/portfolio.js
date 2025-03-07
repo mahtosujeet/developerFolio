@@ -306,7 +306,7 @@ const achievementSection = {
       title: "Finalist, DevOrDie (Avishkar) MNNIT 2024 🏆",
       subtitle:
         "Reached the finals of DevOrDie, a premier coding event at MNNIT, proving expertise in software development and system design.",
-      image: require("./assets/images/avishkarLogo.jpg"),
+      image: require("./assets/images/avishkarLogo.png"),
       imageAlt: "DevOrDie Logo",
       footerLink: []
     },

@@ -155,9 +155,9 @@ const educationInfo = {
       duration: "2021 - 2024",
       desc: "Graduated with a CGPA of 7.99 while developing a strong foundation in computer science concepts.",
       descBullets: [
-        "Focused on algorithms, data structures, and backend development 🔍",
-        "Participated in various technical events and hackathons 🏅",
         "Won 1st place in the District-level Science Exhibition 🏆",
+        "Particated in North-Zone Men's Chess Tournament 2022 🏆",
+        "Focused on algorithms, data structures, and backend development 🔍",
       ]
     },
     {

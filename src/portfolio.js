@@ -36,6 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/mahtosujeet",
   linkedin: "https://www.linkedin.com/in/sujeetmahto/",
   gmail: "sujeetmahto.dev@gmail.com",
+  instagram: "https://www.instagram.com/sujeetvibes/",
   // gitlab: "https://gitlab.com/mahotsujeet",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",

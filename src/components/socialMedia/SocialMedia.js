@@ -128,7 +128,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      // TODO: Fix leetcode and codeforces icons
+      {/* TODO: Fix leetcode and codeforces icons */}
       {socialMediaLinks.leetcode ? (
         <a
           href={socialMediaLinks.leetcode}

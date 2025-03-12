@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -124,6 +124,32 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      // TODO: Fix leetcode and codeforces icons
+      {socialMediaLinks.leetcode ? (
+        <a
+          href={socialMediaLinks.leetcode}
+          className="icon-button leetcode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {/* <i className="fab fa fa-code"></i> */}
+          <i className="fa fa-code"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.codeforces ? (
+        <a
+          href={socialMediaLinks.codeforces}
+          className="icon-button codeforces"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa fa-signal"></i>
           <span></span>
         </a>
       ) : null}

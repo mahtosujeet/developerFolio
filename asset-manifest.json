@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d242f02.css",
+    "main.css": "/static/css/main.65d77209.css",
     "main.js": "/static/js/main.c6078023.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.28f055fb.chunk.js": "/static/js/64.28f055fb.chunk.js",
@@ -27,7 +27,7 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.9d242f02.css.map": "/static/css/main.9d242f02.css.map",
+    "main.65d77209.css.map": "/static/css/main.65d77209.css.map",
     "main.c6078023.js.map": "/static/js/main.c6078023.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.28f055fb.chunk.js.map": "/static/js/64.28f055fb.chunk.js.map",
@@ -35,7 +35,7 @@
     "769.e3ced320.chunk.js.map": "/static/js/769.e3ced320.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d242f02.css",
+    "static/css/main.65d77209.css",
     "static/js/main.c6078023.js"
   ]
 }

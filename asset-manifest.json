@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.65d77209.css",
-    "main.js": "/static/js/main.c6078023.js",
+    "main.js": "/static/js/main.818dcce4.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.28f055fb.chunk.js": "/static/js/64.28f055fb.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.e3ced320.chunk.js": "/static/js/769.e3ced320.chunk.js",
+    "static/media/resume.pdf": "/static/media/resume.e465f5bf0e94ccbf6b49.pdf",
     "static/media/nitjsrLogo.png": "/static/media/nitjsrLogo.ce0164055adc51bf00cd.png",
-    "static/media/resume.pdf": "/static/media/resume.f3955ebb9168ea0f1ab4.pdf",
     "static/media/bsehLogo.png": "/static/media/bsehLogo.1d9b021f67febbe70d83.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/avishkarLogo.png": "/static/media/avishkarLogo.15e424eab80d700a8d57.png",
@@ -28,7 +28,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.65d77209.css.map": "/static/css/main.65d77209.css.map",
-    "main.c6078023.js.map": "/static/js/main.c6078023.js.map",
+    "main.818dcce4.js.map": "/static/js/main.818dcce4.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.28f055fb.chunk.js.map": "/static/js/64.28f055fb.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.65d77209.css",
-    "static/js/main.c6078023.js"
+    "static/js/main.818dcce4.js"
   ]
 }
